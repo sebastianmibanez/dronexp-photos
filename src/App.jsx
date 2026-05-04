@@ -8,7 +8,7 @@ import Cart from "./pages/Cart";
 export default function App() {
   return (
     <BrowserRouter>
-      <div className="min-h-screen flex flex-col" data-theme="dark">
+      <div className="min-h-screen flex flex-col bg-[#0d0d0d]">
         <Navbar />
         <main className="flex-1">
           <Routes>
